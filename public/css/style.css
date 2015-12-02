@@ -1,0 +1,275 @@
+
+html, body{
+	height: 100%;
+	width: 100%;
+  
+}
+body {
+    margin: 0;
+    padding: 0;  
+  }
+ul li {
+    list-style:none;
+}
+#inner{
+  height: 100%;
+}
+.fullstate{
+  width: 100vw;
+  height: 100vh;
+}
+.relleno{
+    position: fixed;
+
+    width: 100%;
+    height: 100%;
+  }
+.vertical-centered-text {
+  height: 90vh;
+  display: table;
+}
+.vertical-centered-text > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.no-margin{
+  margin:0px!important;
+}
+.no-padding{
+  padding:0px!important;
+}
+header, main, footer {
+  padding-left: 240px; }
+
+nav.top-nav {
+  height: 122px;
+  box-shadow: none; }
+
+nav.top-nav a.page-title {
+  line-height: 122px;
+  font-size: 48px; }
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%; }
+  @media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0; } }
+    nav.top-nav {
+  height: 122px;
+  box-shadow: none; }
+  nav.top-nav a.page-title {
+    line-height: 122px;
+    font-size: 48px; }
+
+a.button-collapse.top-nav {
+  position: absolute;
+  text-align: center;
+  height: 48px;
+  width: 48px;
+  left: 7.5%;
+  top: 0;
+  float: none;
+  margin-left: 1.5rem;
+  color: #fff;
+  font-size: 32px;
+  z-index: 2; }
+  a.button-collapse.top-nav.full {
+    line-height: 122px; }
+
+@media only screen and (max-width : 600px) {
+  a.button-collapse.top-nav {
+    left: 5%; } }
+@media only screen and (max-width : 600px) {
+  a.button-collapse.top-nav {
+    left: 5%; } }
+
+@media only screen and (max-width : 992px) {
+  nav .nav-wrapper {
+    text-align: center; }
+    nav .nav-wrapper a.page-title {
+      font-size: 36px; } }
+#logo-container {
+  height: 57px;
+  margin-bottom: 32px; }
+
+  ul.side-nav.fixed li.logo {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 30px; }
+  ul.side-nav.fixed li.logo:hover {
+    background-color: transparent; }
+
+ul.side-nav.fixed {
+  overflow: hidden; }
+  ul.side-nav.fixed li {
+    line-height: 44px; }
+    ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
+      background-color: rgba(0, 0, 0, 0.05); }
+    ul.side-nav.fixed li a {
+      font-size: 20px;
+      line-height: 44px;
+      height: 44px; }
+      ul.side-nav.fixed li a i{
+      font-size: 20px;
+      line-height: 44px;
+      }
+  ul.side-nav.fixed ul.collapsible-accordion {
+    background-color: #FFF; }
+  ul.side-nav.fixed:hover {
+    overflow-y: auto; }
+
+.bold > a {
+  font-weight: bold; }
+
+#logo-container {
+  height: 57px;
+  margin-bottom: 32px; }
+
+nav.top-nav {
+  height: 122px;
+  box-shadow: none; }
+  nav.top-nav a.page-title {
+    line-height: 122px;
+    font-size: 48px; }
+#mensajes{
+  position: absolute;
+    height: 100%;
+    right: 0px;
+
+}
+#collection{
+  height: 60%;
+  overflow: auto;
+}
+#collection2{
+  max-height: 60vh;
+  overflow: auto;
+}
+a.button-collapse.top-nav {
+  position: absolute;
+  text-align: center;
+  height: 48px;
+  width: 48px;
+  left: 7.5%;
+  top: 0;
+  float: none;
+  margin-left: 1.5rem;
+  color: #fff;
+  font-size: 32px;
+  z-index: 2; }
+  a.button-collapse.top-nav.full {
+    line-height: 122px; }
+
+@media only screen and (max-width : 600px) {
+  a.button-collapse.top-nav {
+    left: 5%; } }
+
+@media only screen and (max-width : 992px) {
+  nav .nav-wrapper {
+    text-align: center; }
+    nav .nav-wrapper a.page-title {
+      font-size: 36px; } }
+
+@media only screen and (min-width : 993px) {
+  .container {
+    width: 85%; } }
+
+#front-page-logo {
+  display: inline-block;
+  height: 100%;
+  pointer-events: none; }
+.dataTables_filter {
+display: none; 
+}
+
+/*Sobrecarga Toastr*/
+#toast-container > div{
+  width: 350px!important;
+}
+#toast-container {
+right: 1%!important;
+}
+#scautilogo{
+  width:50%;margin: 0 auto 5px auto;
+}
+#modal-login{
+  width: 30%;
+}
+ #modal-login .row{
+      margin-bottom: 0px; }
+ #modal-login .input-field{
+      margin-top: 0.5rem; }
+@media only screen and (max-width : 992px) {
+    #modal-login{
+      width: 55%; }            
+       #scautilogo{
+          width:65%;
+        }
+}
+@media only screen and (max-width : 600px) {
+  #scautilogo{
+  width:80%;
+}
+#modal-login{
+      width: 90%; } 
+      #mensajes{
+  position: relative;
+    height: 100vh;
+    
+} 
+}
+#myloader{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1000;
+
+}
+#mainloader{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1000;
+
+}
+#progressbar{
+  width: 50%!important;
+  margin: auto;
+  margin-top: 50vh;
+
+}
+#logo_cursantes{
+  height:32px;
+  margin-top:15px;
+}
+#my-video{
+  width: 100%;
+    height: 60vh;
+}
+.pointer{
+  cursor: pointer;
+
+}
+.pointer:link {color: white; text-decoration: none }
+.pointer:hover {color: white; text-decoration: none }
+.pointer:visited {color: white; text-decoration: none }
+
+.tinypro{
+  position: relative;
+  height: 32px;
+  vertical-align: middle;
+}
+.mediumpro{
+  position: relative;
+  height: 64px;
+  vertical-align: middle;
+}
